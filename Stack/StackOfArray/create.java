@@ -7,7 +7,7 @@ class stack{
      int top=-1;
    public void push(int n){
         if(st.length-1==top){
-         System.out.println("Stack already full");
+         System.out.println("Stack already full, so not other data will be pushed");
         }else{
        top=top+1;
        st[top]=n;
