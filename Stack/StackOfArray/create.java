@@ -15,7 +15,7 @@ class stack{
    }
    public int pop(){
        if(top==-1){
-           System.out.println("Stack is Empty");
+           System.out.println("Stack is fully Empty");
            return 0;
        }
        int data=st[top];
